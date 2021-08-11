@@ -1,0 +1,27 @@
+.section{
+    margin: 40px 0 0;
+}
+
+.title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    &::after{
+        content: "";
+        width: 100%;
+        height: 4px;
+        display: block;
+        background: #000000;
+        position: absolute;
+        top: 35px;
+        border-radius: 30%;
+    }
+}
+
+.paragraph{
+    & > b{
+        font-size: 16px;
+        font-weight: 900;
+    }
+}

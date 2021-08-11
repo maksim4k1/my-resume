@@ -1,0 +1,18 @@
+.section{
+    margin-bottom: 60px;
+}
+
+.title{
+    &::after{
+        width: 320px;
+    }
+}
+
+.money{
+    text-shadow: 0 0 5px green;
+    font-weight: 900;
+}
+
+.subtitle{
+    font-size: 18px;
+}

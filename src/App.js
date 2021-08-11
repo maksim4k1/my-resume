@@ -1,5 +1,6 @@
 import React from "react";
-import DesiredCompensation from "./components/DesiredCompensation";
+import "./App.scss";
+import DesiredCompensation from "./components/DesiredCompensation/index";
 import Education from "./components/Education";
 import Expirience from "./components/Expirience";
 import Hobbies from "./components/Hobbies";
@@ -15,7 +16,7 @@ const App = () => {
         lastWorkPlace: "Сar mechanic",
         lastWorkYears: "2020-2021",
         skills: ["HTML", "CSS", "JS", "React"],
-        hobbies: ["Watch TV", "Play Games"],
+        hobbies: ["Watch TV", "Play Games", "Read about space", "Read about psychology"],
         desiredCompensation: 40000
     };
 

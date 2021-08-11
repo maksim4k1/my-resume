@@ -1,0 +1,23 @@
+@mixin gap($gap) {
+    gap: $gap;
+    -webkit-gap: $gap;
+    -ms-gap: $gap;
+    -moz-gap: $gap;
+    -o-gap: $gap;
+}
+
+.title{
+    &::after{
+        width: 210px;
+    }
+}
+
+.list{
+    display: flex;
+    flex-flow: column;
+    @include gap(5px);
+}
+
+.item{
+    font-size: 14px;
+}

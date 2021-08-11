@@ -1,0 +1,17 @@
+@mixin gap($gap) {
+    gap: $gap;
+    -webkit-gap: $gap;
+    -ms-gap: $gap;
+    -moz-gap: $gap;
+    -o-gap: $gap;
+}
+
+.list{
+    display: flex;
+    flex-flow: column;
+    @include gap(5px);
+}
+
+.item{
+    font-size: 14px;
+}

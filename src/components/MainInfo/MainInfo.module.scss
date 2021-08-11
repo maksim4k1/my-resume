@@ -1,0 +1,14 @@
+@mixin fz($fz) {
+    font-size: $fz;
+}
+
+.title{
+    @include fz(36px);
+    font-weight: 900;
+}
+
+.paragraph{
+    & > b{
+        font-weight: 900;
+    }
+}
